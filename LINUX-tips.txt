@@ -1,0 +1,31 @@
+# ls  = list contents of current directory. Note lots of different functionality possible, e.g. ls -a (list all including things whihc start with . or ..), ls -l (list long)s and ls .. (list parent directory)S.
+# cd = change directory
+# cd .. = back to previous direcotry
+# cd / = back to root directory
+# cp = copy of (cp name-of-file name-of-new-copy)
+# rm = remove  (rm name-of-file-to-remove)
+# mkdir = make directory (mkdir name-of-new-directory)
+# rmdir = remove directory but can't be done when a directory is not empty (rm name-of-file-to-remove). If want to remove a directory with a file in it, need to use the rm function (rm directory-with-file-to-be-removed, want to be in parent idrectory of file to be removed).
+# man = manual for information about a particular command. (man function-to-be-investigated)
+mv = move (mv old-file-name new-file-name for renaming or, old-file-name to /new/path/folder found via pwd where you want to move it to, jsut copy and paste it)
+#gedit = for a simple text editor (gedit file_name_to_be_created.txt, do this in the directory you want the file to be created in. To reopen the file go to directory it's in and then gedit file-name.txt and it will open in the text editor).
+# echo can be used to create a file. E.g. in the directory you want the file to be created do echo #"hello" > hello.txt outputs a file called hello.txt which contains the word hello. The file can be read from the directory it's in with gedit hello.txt The file can be outputted if not in the directory you want to using the shortcut with the path/file-name.txt
+#cat = (cat filename.txt). Prints file out to CLI.
+
+
+
+For GITHUB
+
+#Order - Git add filename.txt
+       -git commit -m'message for github'
+       - git add followed by github password
+
+Note you need to make a respositry and then do git clone for it to work for a directoy. 
+
+https://<username on github>@github.com/<username on github>/repositry-name
+
+When in repositry linkeidn to github, can do git pull to update repositry on computer. 
+Go to a linked directory (repositary) using cd. Do git status to check if all files are upto date. Then do above sequence for anyfiles not upto date. 
+
+When making a new repositry on github, don't forget to tick the add README box. Then get the clone reposity link, cd, git clone https://copied-linkcd 
+
